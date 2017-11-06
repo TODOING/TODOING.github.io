@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/11/06/test-hexo/</loc>
+    <lastmod>2017-11-06T13:56:20.144Z</lastmod>
+    <data>
+        <display>
+        <title>test hexo</title>
+        <pubTime>2017-11-06T13:52:28.000Z</pubTime>
+        
+        <tag>c/c++</tag>
+         
+         
+           
+             
+              <breadCrumb title="C/C++" url="http://yoursite.com/categories/C-C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/11/06/hello-world/</loc>
     <lastmod>2017-11-06T12:56:00.032Z</lastmod>
     <data>
