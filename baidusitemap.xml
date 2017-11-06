@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/11/06/test-hexo/</loc>
-    <lastmod>2017-11-06T15:13:36.688Z</lastmod>
+    <lastmod>2017-11-06T15:18:53.548Z</lastmod>
     <data>
         <display>
         <title>test hexo</title>
@@ -16,7 +16,7 @@
          
            
              
-              <breadCrumb title="C/C++" url="http://yoursite.com/categories/C-C/"/>
+              <breadCrumb title="test" url="http://yoursite.com/categories/test/"/>
           
         </display>
     </data>
