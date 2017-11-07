@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/11/07/Hello-World/</loc>
-    <lastmod>2017-11-07T09:26:06.837Z</lastmod>
+    <lastmod>2017-11-07T09:42:06.837Z</lastmod>
     <data>
         <display>
         <title>Hello World</title>
@@ -17,6 +17,26 @@
            
              
               <breadCrumb title="Linux" url="http://yoursite.com/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/11/07/%E7%AC%AC-1-%E7%AB%A0-%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%A6%82%E8%A6%81%E4%B8%8E%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2017-11-07T09:42:06.837Z</lastmod>
+    <data>
+        <display>
+        <title>第 1 章 计算机概要与技术</title>
+        <pubTime>2017-11-07T09:37:56.000Z</pubTime>
+        
+        <tag>计算机组成原理</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机基础" url="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
           
         </display>
     </data>
