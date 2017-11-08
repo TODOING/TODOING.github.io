@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>彭雷的博客</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://TODOING.github.io/"/>
   <updated>2017-11-08T01:10:08.465Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://TODOING.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>PengLei</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>第 1 章 计算机概要与技术</title>
-    <link href="http://yoursite.com/2017/11/07/%E7%AC%AC-1-%E7%AB%A0-%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%A6%82%E8%A6%81%E4%B8%8E%E6%8A%80%E6%9C%AF/"/>
-    <id>http://yoursite.com/2017/11/07/第-1-章-计算机概要与技术/</id>
+    <link href="https://TODOING.github.io/2017/11/07/%E7%AC%AC-1-%E7%AB%A0-%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%A6%82%E8%A6%81%E4%B8%8E%E6%8A%80%E6%9C%AF/"/>
+    <id>https://TODOING.github.io/2017/11/07/第-1-章-计算机概要与技术/</id>
     <published>2017-11-07T09:37:56.000Z</published>
     <updated>2017-11-08T01:10:08.465Z</updated>
     
@@ -37,17 +37,17 @@
     
     </summary>
     
-      <category term="计算机基础" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+      <category term="计算机基础" scheme="https://TODOING.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="计算机组成原理" scheme="http://yoursite.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+      <category term="计算机组成原理" scheme="https://TODOING.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/11/07/Hello-World/"/>
-    <id>http://yoursite.com/2017/11/07/Hello-World/</id>
+    <link href="https://TODOING.github.io/2017/11/07/Hello-World/"/>
+    <id>https://TODOING.github.io/2017/11/07/Hello-World/</id>
     <published>2017-11-07T04:21:29.000Z</published>
     <updated>2017-11-08T01:10:08.465Z</updated>
     
@@ -63,10 +63,10 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+      <category term="Linux" scheme="https://TODOING.github.io/categories/Linux/"/>
     
     
-      <category term="c/c++" scheme="http://yoursite.com/tags/c-c/"/>
+      <category term="c/c++" scheme="https://TODOING.github.io/tags/c-c/"/>
     
   </entry>
   
