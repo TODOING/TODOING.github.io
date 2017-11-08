@@ -5,7 +5,7 @@ tags: c/c++
 categories: Linux
 ---
 
-![](image/dream.jpg)
+![](/image/dream.jpg)
 
 ```cpp
 #include <stdio.h>
