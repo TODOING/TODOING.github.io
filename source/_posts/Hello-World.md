@@ -1,5 +1,20 @@
 ---
 title: Hello World
 date: 2017-11-07 12:21:29
-tags:
+tags: c/c++
+categories: Linux
 ---
+
+![](image/dream.jpg)
+
+```cpp
+#include <stdio.h>
+int main()
+{
+    printf("Hello World!\n");
+    
+    return 0;
+}
+
+```
+
