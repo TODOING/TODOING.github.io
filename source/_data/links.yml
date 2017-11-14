@@ -1,9 +1,24 @@
 # links
 
-"CSDN:":
+CSDN:
   link: http://blog.csdn.net/ranking.html
   avatar: /images/favatar/csdn-logo.png
   desc: 全球最大中文IT社区
+
+酷壳:
+  link: https://coolshell.cn/
+  avatar: /images/favatar/coolshell-logo.jpg
+  desc: 享受编程和技术所带来的快乐
+
+阮一峰:
+  link: http://www.ruanyifeng.com/blog/
+  avatar: /images/favatar/ruanyifeng-logo.jpg
+  desc: 阮一峰的网络日志
+
+MacTalk:
+  link: http://macshuo.com/
+  avatar: /images/favatar/mactalk-logo.jpg
+  desc: 关注技术和人文
 	
 
  
