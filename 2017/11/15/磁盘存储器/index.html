@@ -17,14 +17,26 @@
   
   
   <title>磁盘存储器 | 彭雷的博客</title>
-  <meta name="keywords" content="磁盘">
+  <meta name="description" content="磁盘（硬盘）主要由盘体、控制电路板和接口部件等组成，如下图所示：  盘体是一个封装了多个盘片的腔体；控制电路板上主要有硬盘BIOS、硬盘缓存（即cache）和主控制芯片等单元，如下图所示；接口部件包括电源插座、数据接口和主从跳线等，数据接口是硬盘与主板、内存之间进行数据交换的通道。  硬盘的内部结构硬盘的内部结构通常专指盘体的内部结构。盘体是一个密封的腔体，里面密封着磁头、盘片（磁片、碟片）等部">
+<meta name="keywords" content="磁盘">
 <meta property="og:type" content="article">
 <meta property="og:title" content="磁盘存储器">
 <meta property="og:url" content="https://TODOING.github.io/2017/11/15/磁盘存储器/index.html">
 <meta property="og:site_name" content="彭雷的博客">
-<meta property="og:updated_time" content="2017-11-15T07:02:14.723Z">
+<meta property="og:description" content="磁盘（硬盘）主要由盘体、控制电路板和接口部件等组成，如下图所示：  盘体是一个封装了多个盘片的腔体；控制电路板上主要有硬盘BIOS、硬盘缓存（即cache）和主控制芯片等单元，如下图所示；接口部件包括电源插座、数据接口和主从跳线等，数据接口是硬盘与主板、内存之间进行数据交换的通道。  硬盘的内部结构硬盘的内部结构通常专指盘体的内部结构。盘体是一个密封的腔体，里面密封着磁头、盘片（磁片、碟片）等部">
+<meta property="og:image" content="https://todoing.github.io/image/disk.jpg">
+<meta property="og:image" content="https://todoing.github.io/image/硬盘的外观.jpg">
+<meta property="og:image" content="https://todoing.github.io/image/控制电路板.jpg">
+<meta property="og:image" content="https://todoing.github.io/image/硬盘内部结构.jpg">
+<meta property="og:image" content="https://todoing.github.io/image/磁盘基本概念.png">
+<meta property="og:image" content="https://todoing.github.io/image/盘面.jpg">
+<meta property="og:image" content="https://todoing.github.io/image/盘面.jpg">
+<meta property="og:image" content="https://todoing.github.io/image/簇.jpg">
+<meta property="og:updated_time" content="2017-11-15T07:06:22.567Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="磁盘存储器">
+<meta name="twitter:description" content="磁盘（硬盘）主要由盘体、控制电路板和接口部件等组成，如下图所示：  盘体是一个封装了多个盘片的腔体；控制电路板上主要有硬盘BIOS、硬盘缓存（即cache）和主控制芯片等单元，如下图所示；接口部件包括电源插座、数据接口和主从跳线等，数据接口是硬盘与主板、内存之间进行数据交换的通道。  硬盘的内部结构硬盘的内部结构通常专指盘体的内部结构。盘体是一个密封的腔体，里面密封着磁头、盘片（磁片、碟片）等部">
+<meta name="twitter:image" content="https://todoing.github.io/image/disk.jpg">
   <!-- Canonical links -->
   <link rel="canonical" href="https://TODOING.github.io/2017/11/15/磁盘存储器/index.html">
   
@@ -62,7 +74,7 @@
 
     <form class="search-form sidebar-form">
         <div class="input-group">
-            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <input type="text" class="search-form-input form-control" placeholder="搜索" />
             <span class="input-group-btn">
                 <button type="submit" class="search-form-submit btn btn-flat"><i class="fa fa-search"></i></button>
             </span>
@@ -72,7 +84,7 @@
   <div class="ins-search-mask"></div>
   <div class="ins-search-container">
     <div class="ins-input-wrapper">
-      <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech />
+      <input type="text" class="ins-search-input" placeholder="想要查找什么..." x-webkit-speech />
       <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
       <!-- <span class="ins-close ins-selectable"><i class="fa fa-times"></i></span> -->
     </div>
@@ -101,7 +113,7 @@
             
             <i class="fa fa-fw fa-dashboard"></i>
             
-            <span class="menu-title">Home</span>
+            <span class="menu-title">首页</span>
           </a>
         </li>
         
@@ -112,7 +124,7 @@
             
             <i class="fa fa-fw fa-delicious"></i>
             
-            <span class="menu-title">Archives</span>
+            <span class="menu-title">归档</span>
           </a>
         </li>
         
@@ -123,7 +135,7 @@
             
             <i class="fa fa-fw fa-folder"></i>
             
-            <span class="menu-title">Categories</span>
+            <span class="menu-title">分类</span>
           </a>
         </li>
         
@@ -134,7 +146,7 @@
             
             <i class="fa fa-fw fa-tags"></i>
             
-            <span class="menu-title">Tags</span>
+            <span class="menu-title">标签</span>
           </a>
         </li>
         
@@ -145,7 +157,7 @@
             
             <i class="fa fa-fw fa-gg"></i>
             
-            <span class="menu-title">Links</span>
+            <span class="menu-title">友链</span>
           </a>
         </li>
         
@@ -156,7 +168,7 @@
             
             <i class="fa fa-fw fa-coffee"></i>
             
-            <span class="menu-title">About</span>
+            <span class="menu-title">关于</span>
           </a>
         </li>
         
@@ -178,7 +190,7 @@
   <div class="slimContent">
     
       <div class="widget">
-    <h3 class="widget-title">Board</h3>
+    <h3 class="widget-title">公告</h3>
     <div class="widget-body">
         <div id="board">
             
@@ -194,7 +206,7 @@
     
       
   <div class="widget">
-    <h3 class="widget-title">Categories</h3>
+    <h3 class="widget-title">分类</h3>
     <div class="widget-body">
       <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/理解计算机/">理解计算机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a><span class="category-list-count">4</span></li></ul>
     </div>
@@ -204,7 +216,7 @@
     
       
   <div class="widget">
-    <h3 class="widget-title">Tags</h3>
+    <h3 class="widget-title">标签</h3>
     <div class="widget-body">
       <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/操作系统/">操作系统</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据结构与算法/">数据结构与算法</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/磁盘/">磁盘</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/计算机组成/">计算机组成</a><span class="tag-list-count">2</span></li></ul>
     </div>
@@ -214,7 +226,7 @@
     
       
   <div class="widget">
-    <h3 class="widget-title">Tag Cloud</h3>
+    <h3 class="widget-title">标签云</h3>
     <div class="widget-body tagcloud">
       <a href="/tags/操作系统/" style="font-size: 13px;">操作系统</a> <a href="/tags/数据结构与算法/" style="font-size: 13px;">数据结构与算法</a> <a href="/tags/磁盘/" style="font-size: 13px;">磁盘</a> <a href="/tags/计算机组成/" style="font-size: 14px;">计算机组成</a>
     </div>
@@ -223,7 +235,7 @@
     
       
   <div class="widget">
-    <h3 class="widget-title">Archive</h3>
+    <h3 class="widget-title">归档</h3>
     <div class="widget-body">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">5</span></li></ul>
     </div>
@@ -233,7 +245,7 @@
     
       
   <div class="widget">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">最新文章</h3>
     <div class="widget-body">
       <ul class="recent-post-list list-unstyled ">
         
@@ -346,8 +358,8 @@
 <aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
   <div class="slimContent">
     <nav id="toc" class="article-toc">
-      <h3 class="toc-title">Catalogue</h3>
-      
+      <h3 class="toc-title">文章目录</h3>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#硬盘的内部结构"><span class="toc-number">1.</span> <span class="toc-text">硬盘的内部结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#盘面"><span class="toc-number">1.1.</span> <span class="toc-text">盘面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#磁道"><span class="toc-number">1.2.</span> <span class="toc-text">磁道</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#扇区"><span class="toc-number">1.3.</span> <span class="toc-text">扇区</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#柱面"><span class="toc-number">1.4.</span> <span class="toc-text">柱面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#簇"><span class="toc-number">1.5.</span> <span class="toc-text">簇</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#容量计算公式"><span class="toc-number">1.6.</span> <span class="toc-text">容量计算公式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#硬盘读写数据的过程"><span class="toc-number">2.</span> <span class="toc-text">硬盘读写数据的过程</span></a></li></ol>
     </nav>
   </div>
 </aside>
@@ -395,19 +407,19 @@
 	</span>
 
 
-        <span class="post-comment"><i class="fa fa-commenting-o"></i> <a href="/2017/11/15/磁盘存储器/#comments" class="article-comment-link">Comments</a></span>
+        <span class="post-comment"><i class="fa fa-commenting-o"></i> <a href="/2017/11/15/磁盘存储器/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 0(words)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1,476(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1(minutes)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 5(分)</span>
 	
 
       </div>
       
       <div class="toggle-toc hidden-xs" data-stick-top>
-        <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="Catalogue" role="button">
+        <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
           <i class="text-collapsed fa fa-anchor"></i>
           <i class="text-in fa fa-close"></i>
         </a>
@@ -416,7 +428,29 @@
     </div>
     <div class="article-entry markdown-body" itemprop="articleBody">
       
-        
+        <p><img src="/image/disk.jpg" alt=""></p>
+<p>磁盘（硬盘）主要由盘体、控制电路板和接口部件等组成，如下图所示：</p>
+<p><img src="/image/硬盘的外观.jpg" alt=""></p>
+<p>盘体是一个封装了多个盘片的腔体；控制电路板上主要有硬盘BIOS、硬盘缓存（即cache）和主控制芯片等单元，如下图所示；接口部件包括电源插座、数据接口和主从跳线等，数据接口是硬盘与主板、内存之间进行数据交换的通道。</p>
+<p><img src="/image/控制电路板.jpg" alt=""></p>
+<h2 id="硬盘的内部结构"><a href="#硬盘的内部结构" class="headerlink" title="硬盘的内部结构"></a>硬盘的内部结构</h2><p>硬盘的内部结构通常专指盘体的内部结构。盘体是一个密封的腔体，里面密封着磁头、盘片（磁片、碟片）等部件，如下图所示：</p>
+<p><img src="/image/硬盘内部结构.jpg" alt=""></p>
+<p>接下来了解一下硬盘的盘面，柱面，磁道和扇区的概念。</p>
+<p><img src="/image/磁盘基本概念.png" alt=""></p>
+<p>其中，A表示磁道，B表示扇面，C表示扇区，D表示簇。</p>
+<h3 id="盘面"><a href="#盘面" class="headerlink" title="盘面"></a>盘面</h3><p><img src="/image/盘面.jpg" alt=""></p>
+<p>硬盘一般会有一个或多个盘片，每个盘片可以有两个面(Side)，即第1个盘片的正面称为0面，反面称为1面；第2个盘片的正面称为2面，反面称为3面…以此类推。每个盘面对应一个磁头(Head)用于读写数据，第一个盘面的正面的磁头称为0磁头，背面称为1磁头；第二个盘片正面的磁头称为2磁头，背面称为3磁头…以此类推。盘面数和磁头数是相等的。关机时磁头停留在盘片启停区，开机时磁头“飞行”在磁盘片上方。为了避免磁盘和磁头损坏，建议不要强制关机。</p>
+<h3 id="磁道"><a href="#磁道" class="headerlink" title="磁道"></a>磁道</h3><p>每个盘片的每个盘面被划分成多个狭窄的<strong>同心圆环</strong>，数据就是存储在这样的同心圆环上，我们将这样的圆环称为磁道(Track)，每个盘面可以划分多个磁道。关机时磁头停留在硬盘的着陆区(Landing Zone)，这个着陆区以前是位于离盘心最近的区域，不存放任何数据。<br>在每个盘面的最外圈，离盘心最远的地方是“0”磁道，向盘心方向依次增长为1磁道，2磁道，等等。硬盘数据的存放就是从最外圈开始</p>
+<h3 id="扇区"><a href="#扇区" class="headerlink" title="扇区"></a>扇区</h3><p>每个磁道划分成若干弧段，每段称为一个扇区(Sector)。扇区是硬盘上存储的物理单位，每扇区大小是512字节，大小不可改变。扇区的编号是从1开始，而不是0，这一点需要注意。</p>
+<p>另外，硬盘在划分扇区时，和软盘是有一定区别的。软盘的一个磁道中，扇区号一般依次编排，如1号，2号，3号…以此类推。但在硬盘磁道中，扇区号是按照某个间隔跳跃着编排。比如，2号扇区并不是1号扇区后的按顺序的第一个而是第八个，3号扇区又是2号扇区后的按顺序的第八个，依此类推，这个“八”称为交叉因子。</p>
+<h3 id="柱面"><a href="#柱面" class="headerlink" title="柱面"></a>柱面</h3><p><img src="/image/盘面.jpg" alt=""></p>
+<p>柱面其实是我们抽象出来的一个逻辑概念,不同面上相同磁道编号则组成了一个圆柱面，即所称的柱面(Cylinder)。这里要注意，硬盘数据的读写是按柱面进行，即磁头读写数据时首先在同一柱面内从0磁头开始进行操作，依次向下在同一柱面的不同盘面(即磁头上)进行操作，只有在同一柱面所有的磁头全部读写完毕后磁头才转移到下一柱面，因为选取磁头只需通过电子切换即可，而选取柱面则必须通过机械切换。电子切换比从在机械上磁头向邻近磁道移动快得多。因此，数据的读写按柱面进行，而不按盘面进行。读写数据都是按照这种方式进行，尽可能提高了硬盘读写效率。</p>
+<h3 id="簇"><a href="#簇" class="headerlink" title="簇"></a>簇</h3><p><img src="/image/簇.jpg" alt=""></p>
+<p>将物理相邻的若干个扇区称为了一个簇。操作系统读写磁盘的基本单位是扇区，而文件系统的基本单位是簇(Cluster)。在Windows下，随便找个几字节的文件，在其上面点击鼠标右键选择属性，看看实际大小与占用空间两项内容，如大小：15 字节 (15 字节)， 占用空间：4.00 KB (4，096 字节)。这里的占用空间就是你机器分区的簇大小，因为再小的文件都会占用空间，逻辑基本单位是4K，所以都会占用4K。 簇一般有这几类大小 4K，8K，16K，32K，64K等。簇越大存储性能越好，但空间浪费严重。簇越小性能相对越低，但空间利用率高。NTFS格式的文件系统簇的大小为4K。</p>
+<h3 id="容量计算公式"><a href="#容量计算公式" class="headerlink" title="容量计算公式"></a>容量计算公式</h3><p>硬盘容量=盘面数×柱面数×扇区数×512字节</p>
+<h2 id="硬盘读写数据的过程"><a href="#硬盘读写数据的过程" class="headerlink" title="硬盘读写数据的过程"></a>硬盘读写数据的过程</h2><p>现代硬盘寻道都是采用CHS(Cylinder Head Sector)的方式，硬盘读取数据时，读写磁头沿径向移动，移到要读取的扇区所在磁道的上方，这段时间称为寻道时间(seek time)。因读写磁头的起始位置与目标位置之间的距离不同，寻道时间也不同。目前硬盘一般为2到30毫秒，平均约为9毫秒。磁头到达指定磁道后，然后通过盘片的旋转，使得要读取的扇区转到读写磁头的下方，这段时间称为旋转延迟时间(rotational latencytime)。</p>
+<p>一个7200（转/每分钟）的硬盘，每旋转一周所需时间为60×1000÷7200=8.33毫秒，则平均旋转延迟时间为8.33÷2=4.17毫秒（平均情况下，需要旋转半圈）。平均寻道时间和平均选装延迟称为平均存取时间。</p>
+
       
     </div>
     <div class="article-footer">
@@ -469,14 +503,14 @@
     
     
     <li class="next">
-      <a href="/2017/11/13/现代操作系统（第4版）/" title="现代操作系统（第4版）">Older&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+      <a href="/2017/11/13/现代操作系统（第4版）/" title="现代操作系统（第4版）">下一篇&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
     </li>
     
   </ul>
   
   
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning hidden-xs" data-toggle="modal" data-target="#donateModal"><span>$</span></button>
+  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning hidden-xs" data-toggle="modal" data-target="#donateModal"><span>赏</span></button>
   
   
   <div class="bar-right">
@@ -494,28 +528,28 @@
       <div class="modal-body">
         <div class="donate-box">
           <div class="donate-tit">
-            <p>Thank you for your support, I will continue to work hard!</p>
+            <p>感谢您的支持，我会继续努力的!</p>
           </div>
           <div class="donate-payimg">
-            <img src="/images/donate/alipayimg.png" alt="Scan Qrcode" title="Scan" />
+            <img src="/images/donate/alipayimg.png" alt="扫码支持" title="扫一扫" />
           </div>
-          <p class="text-muted mv">Scan this qrcode</p>
+          <p class="text-muted mv">扫码打赏，你说多少就多少</p>
           <div class="donate-payselect">
             <div class="pay_item checked" data-id="alipay" data-src="/images/donate/alipayimg.png">
               <div class="radio">
                 <input type="radio" name="payment" id="input-alipay" value="alipay" checked>
-                <label class="pay_logo clickable" for="input-alipay"><img src="/images/donate/alipay.jpg" alt="alipay" /></label>
+                <label class="pay_logo clickable" for="input-alipay"><img src="/images/donate/alipay.jpg" alt="支付宝" /></label>
               </div>
             </div>
             <div class="pay_item" data-id="weipay" data-src="/images/donate/weipayimg.png">
               <div class="radio">
                 <input type="radio" name="payment" id="input-weipay" value="weipay">
-                <label class="pay_logo clickable" for="input-weipay"><img src="/images/donate/weipay.jpg" alt="weipay" /></label>
+                <label class="pay_logo clickable" for="input-weipay"><img src="/images/donate/weipay.jpg" alt="微信支付" /></label>
               </div>
             </div>
           </div>
           <div class="text-grey">
-            <p>Scan this qrcode, you can sweep yards reward oh!</p>
+            <p>扫一扫，即可进行扫码打赏哦</p>
           </div>
         </div>
       </div>
@@ -557,11 +591,11 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
