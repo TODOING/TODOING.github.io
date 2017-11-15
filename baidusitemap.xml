@@ -4,14 +4,34 @@
 
     
   <url>
-    <loc>https://TODOING.github.io/2017/11/13/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E4%B8%8E%E8%AE%BE%E8%AE%A1%EF%BC%9A%E7%A1%AC%E4%BB%B6%E8%BD%AF%E4%BB%B6%E6%8E%A5%E5%8F%A3%EF%BC%88%E7%AC%AC5%E7%89%88%EF%BC%89/</loc>
-    <lastmod>2017-11-14T01:43:08.540Z</lastmod>
+    <loc>https://TODOING.github.io/2017/11/15/%E7%A3%81%E7%9B%98%E5%AD%98%E5%82%A8%E5%99%A8/</loc>
+    <lastmod>2017-11-15T07:02:14.723Z</lastmod>
     <data>
         <display>
-        <title>计算机组成与设计：硬件软件接口（第5版）</title>
-        <pubTime>2017-11-13T08:56:39.000Z</pubTime>
+        <title>磁盘存储器</title>
+        <pubTime>2017-11-15T07:00:51.000Z</pubTime>
         
-        <tag>计算机组成</tag>
+        <tag>磁盘</tag>
+         
+         
+           
+             
+              <breadCrumb title="理解计算机" url="https://TODOING.github.io/categories/%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://TODOING.github.io/2017/11/13/%E7%8E%B0%E4%BB%A3%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89/</loc>
+    <lastmod>2017-11-15T07:01:23.041Z</lastmod>
+    <data>
+        <display>
+        <title>现代操作系统（第4版）</title>
+        <pubTime>2017-11-13T08:57:19.000Z</pubTime>
+        
+        <tag>操作系统</tag>
          
          
            
@@ -24,14 +44,14 @@
 
     
   <url>
-    <loc>https://TODOING.github.io/2017/11/13/%E7%8E%B0%E4%BB%A3%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89/</loc>
-    <lastmod>2017-11-13T08:59:05.565Z</lastmod>
+    <loc>https://TODOING.github.io/2017/11/13/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E4%B8%8E%E8%AE%BE%E8%AE%A1%EF%BC%9A%E7%A1%AC%E4%BB%B6%E8%BD%AF%E4%BB%B6%E6%8E%A5%E5%8F%A3%EF%BC%88%E7%AC%AC5%E7%89%88%EF%BC%89/</loc>
+    <lastmod>2017-11-14T01:43:08.540Z</lastmod>
     <data>
         <display>
-        <title>现代操作系统（第4版）</title>
-        <pubTime>2017-11-13T08:57:19.000Z</pubTime>
+        <title>计算机组成与设计：硬件软件接口（第5版）</title>
+        <pubTime>2017-11-13T08:56:39.000Z</pubTime>
         
-        <tag>操作系统</tag>
+        <tag>计算机组成</tag>
          
          
            
