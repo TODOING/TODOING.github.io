@@ -30,9 +30,9 @@
 <meta property="og:image" content="https://todoing.github.io/image/硬盘内部结构.jpg">
 <meta property="og:image" content="https://todoing.github.io/image/磁盘基本概念.png">
 <meta property="og:image" content="https://todoing.github.io/image/盘面.jpg">
-<meta property="og:image" content="https://todoing.github.io/image/盘面.jpg">
+<meta property="og:image" content="https://todoing.github.io/image/柱面.jpg">
 <meta property="og:image" content="https://todoing.github.io/image/簇.jpg">
-<meta property="og:updated_time" content="2017-11-15T08:10:37.725Z">
+<meta property="og:updated_time" content="2017-11-15T08:11:37.721Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="磁盘存储器">
 <meta name="twitter:description" content="磁盘（硬盘）主要由盘体、控制电路板和接口部件等组成，如下图所示：    盘体是一个封装了多个盘片的腔体；控制电路板上主要有硬盘BIOS、硬盘缓存（即cache）和主控制芯片等单元，如下图所示；接口部件包括电源插座、数据接口和主从跳线等，数据接口是硬盘与主板、内存之间进行数据交换的通道。   硬盘的内部结构硬盘的内部结构通常专指盘体的内部结构。盘体是一个密封的腔体，里面密封着磁头、盘片（磁片、碟">
@@ -450,7 +450,7 @@
 <p>在每个盘面的最外圈，离盘心最远的地方是“0”磁道，向盘心方向依次增长为1磁道、2磁道等等。硬盘数据的存放就是从最外圈开始。</p>
 <h3 id="扇区"><a href="#扇区" class="headerlink" title="扇区"></a>扇区</h3><p>每个磁道划分成若干弧段，每段称为一个<strong>扇区</strong>(Sector)。扇区是硬盘上存储的物理单位，每扇区大小是512字节，大小不可改变。<strong><em>扇区的编号是从1开始，而不是0，这一点需要注意</em></strong>。</p>
 <p>另外，硬盘在划分扇区时，和软盘是有一定区别的。软盘的一个磁道中，扇区号一般依次编排，如1号、2号、3号…以此类推。但在硬盘磁道中，扇区号是按照某个间隔跳跃着编排。比如，2号扇区并不是1号扇区后的按顺序的第一个而是第八个，3号扇区又是2号扇区后的按顺序的第八个，依此类推，这个“八”称为交叉因子。</p>
-<h3 id="柱面"><a href="#柱面" class="headerlink" title="柱面"></a>柱面</h3><div align="center"><br><img src="/image/盘面.jpg" alt=""><br></div>
+<h3 id="柱面"><a href="#柱面" class="headerlink" title="柱面"></a>柱面</h3><div align="center"><br><img src="/image/柱面.jpg" alt=""><br></div>
 
 <p>柱面其实是我们抽象出来的一个逻辑概念,不同面上相同磁道编号则组成了一个圆柱面，即所称的<strong>柱面</strong>(Cylinder)。这里要注意，硬盘数据的读写是按柱面进行，即磁头读写数据时首先在同一柱面内从0磁头开始进行操作，依次向下在同一柱面的不同盘面(即磁头上)进行操作，只有在同一柱面所有的磁头全部读写完毕后磁头才转移到下一柱面，因为选取磁头只需通过电子切换即可，而选取柱面则必须通过机械切换。电子切换比从在机械上磁头向邻近磁道移动快得多。因此，数据的读写按柱面进行，而不按盘面进行。读写数据都是按照这种方式进行，尽可能提高了硬盘读写效率。</p>
 <h3 id="簇"><a href="#簇" class="headerlink" title="簇"></a>簇</h3><div align="center"><br><img src="/image/簇.jpg" alt=""><br></div>
@@ -458,7 +458,7 @@
 <p>将物理相邻的若干个扇区称为了一个<strong>簇</strong>。<strong><em>操作系统读写磁盘的基本单位是扇区，而文件系统的基本单位是簇(Cluster)</em></strong>。在Windows下，随便找个几字节的文件，在其上面点击鼠标右键选择属性，看看实际大小与占用空间两项内容，如大小：15 字节 (15 字节)， 占用空间：4.00 KB (4，096 字节)。这里的占用空间就是你机器分区的簇大小，因为再小的文件都会占用空间，逻辑基本单位是4K，所以都会占用4K。 簇一般有这几类大小 4K，8K，16K，32K，64K等。簇越大存储性能越好，但空间浪费严重。簇越小性能相对越低，但空间利用率高。NTFS格式的文件系统簇的大小为4K。</p>
 <h3 id="容量计算公式"><a href="#容量计算公式" class="headerlink" title="容量计算公式"></a>容量计算公式</h3><p>硬盘容量=盘面数×柱面数×扇区数×512字节</p>
 <h2 id="硬盘读写数据的过程"><a href="#硬盘读写数据的过程" class="headerlink" title="硬盘读写数据的过程"></a>硬盘读写数据的过程</h2><p>现代硬盘寻道都是采用CHS(Cylinder Head Sector)的方式，硬盘读取数据时，读写磁头沿径向移动，移到要读取的扇区所在磁道的上方，这段时间称为<strong>寻道时间</strong>(seek time)。因读写磁头的起始位置与目标位置之间的距离不同，寻道时间也不同。目前硬盘一般为2到30毫秒，平均约为9毫秒。磁头到达指定磁道后，然后通过盘片的旋转，使得要读取的扇区转到读写磁头的下方，这段时间称为<strong>旋转延迟时间</strong>(rotational latencytime)。</p>
-<p>一个7200（转/每分钟）的硬盘，每旋转一周所需时间为60×1000÷7200=8.33毫秒，则平均旋转延迟时间为8.33÷2=4.17毫秒（平均情况下，需要旋转半圈）。平均寻道时间和平均旋转延迟称为平均存取时间。</p>
+<p>一个7200（转/每分钟）的硬盘，每旋转一周所需时间为60×1000÷7200=8.33毫秒，则平均旋转延迟时间为8.33÷2=4.17毫秒（平均情况下，需要旋转半圈）。平均寻道时间和平均旋转延迟称为**平均存取时间。</p>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>[1] <a href="http://zhengjianglong.leanote.com/post/linux%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA" target="_blank" rel="external">linux磁盘管理与分区</a><br>[2] <a href="http://blog.csdn.net/tianxueer/article/details/2689117" target="_blank" rel="external">硬盘内部硬件结构和工作原理详解</a></p>
 
       
