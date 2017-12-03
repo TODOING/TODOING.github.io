@@ -141,7 +141,10 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
+  CSDN: http://blog.csdn.net/ranking.html
   酷壳-CoolSheel: https://coolshell.cn/
+  阮一峰: http://www.ruanyifeng.com/blog/
+  MacTalk: http://macshuo.com/
   #Title: http://example.com/
 
 # Sidebar Avatar
