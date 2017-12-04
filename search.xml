@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Git常见用法]]></title>
+    <url>%2F2017%2F12%2F04%2FLinux%2FGit%E5%B8%B8%E8%A7%81%E7%94%A8%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[从远程库克隆到本地git clone git clone https://github.com/TODOING/tcpl2.git 参考[1] Git教程-廖雪峰]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[常用网站]]></title>
     <url>%2F2017%2F12%2F04%2F%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%2F</url>
-    <content type="text"><![CDATA[编程语言C/C++Ccppreference http://en.cppreference.com/w/c-英文版http://zh.cppreference.com/w/c-中文版 C++cppreference http://en.cppreference.com/w/cpp-英文版http://zh.cppreference.com/w/cpp-中文版 cplusplus http://www.cplusplus.com/reference/ LinuxLinux命令大全 http://man.linuxde.net/ 鸟哥的Linux私房菜 http://linux.vbird.org/ Learn Vim Progressively http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/]]></content>
+    <content type="text"><![CDATA[编程语言C/C++Ccppreference http://en.cppreference.com/w/c-英文版http://zh.cppreference.com/w/c-中文版 C++cppreference http://en.cppreference.com/w/cpp-英文版http://zh.cppreference.com/w/cpp-中文版 cplusplus http://www.cplusplus.com/reference/ LinuxLinux Tools Quick Tutorial https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html# Linux命令大全 http://man.linuxde.net/ 鸟哥的Linux私房菜 http://linux.vbird.org/ Learn Vim Progressively http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/-英文版https://coolshell.cn/articles/5426.html-中文版]]></content>
       <tags>
         <tag>常用网站</tag>
       </tags>

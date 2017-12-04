@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://TODOING.github.io/"/>
-  <updated>2017-12-04T07:10:11.729Z</updated>
+  <updated>2017-12-04T09:42:52.025Z</updated>
   <id>https://TODOING.github.io/</id>
   
   <author>
@@ -17,13 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Git常见用法</title>
+    <link href="https://TODOING.github.io/2017/12/04/Linux/Git%E5%B8%B8%E8%A7%81%E7%94%A8%E6%B3%95/"/>
+    <id>https://TODOING.github.io/2017/12/04/Linux/Git常见用法/</id>
+    <published>2017-12-04T09:16:29.000Z</published>
+    <updated>2017-12-04T09:42:52.025Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/git_logo.jpg" alt=""></p><a id="more"></a><h2 id="从远程库克隆到本地"><a href="#从远程库克隆到本地" class="headerlink" title="从远程库克隆到本地"></a>从远程库克隆到本地</h2><p><code>git clone</code></p><blockquote><p>git clone <a href="https://github.com/TODOING/tcpl2.git" target="_blank" rel="external">https://github.com/TODOING/tcpl2.git</a></p></blockquote><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>[1] <a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git教程-廖雪峰</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/git_logo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://TODOING.github.io/categories/Linux/"/>
+    
+    
+      <category term="Git" scheme="https://TODOING.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>常用网站</title>
     <link href="https://TODOING.github.io/2017/12/04/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/"/>
     <id>https://TODOING.github.io/2017/12/04/常用网站/</id>
     <published>2017-12-04T06:26:06.000Z</published>
-    <updated>2017-12-04T07:10:11.729Z</updated>
+    <updated>2017-12-04T08:16:38.969Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/images/website.jpg" alt=""></p><a id="more"></a><h2 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h2><h3 id="C-C"><a href="#C-C" class="headerlink" title="C/C++"></a>C/C++</h3><h4 id="C"><a href="#C" class="headerlink" title="C"></a>C</h4><p><code>cppreference</code></p><blockquote><p><a href="http://en.cppreference.com/w/c" target="_blank" rel="external">http://en.cppreference.com/w/c-英文版</a><br><a href="http://zh.cppreference.com/w/c" target="_blank" rel="external">http://zh.cppreference.com/w/c-中文版</a></p></blockquote><h4 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h4><p><code>cppreference</code></p><blockquote><p><a href="http://en.cppreference.com/w/cpp" target="_blank" rel="external">http://en.cppreference.com/w/cpp-英文版</a><br><a href="http://zh.cppreference.com/w/cpp" target="_blank" rel="external">http://zh.cppreference.com/w/cpp-中文版</a></p></blockquote><p><code>cplusplus</code></p><blockquote><p><a href="http://www.cplusplus.com/reference/" target="_blank" rel="external">http://www.cplusplus.com/reference/</a></p></blockquote><h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><p><code>Linux命令大全</code></p><blockquote><p><a href="http://man.linuxde.net/" target="_blank" rel="external">http://man.linuxde.net/</a></p></blockquote><p><code>鸟哥的Linux私房菜</code></p><blockquote><p><a href="http://linux.vbird.org/" target="_blank" rel="external">http://linux.vbird.org/</a></p></blockquote><p><code>Learn Vim Progressively</code></p><blockquote><p><a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/" target="_blank" rel="external">http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p><img src="/images/website.jpg" alt=""></p><a id="more"></a><h2 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h2><h3 id="C-C"><a href="#C-C" class="headerlink" title="C/C++"></a>C/C++</h3><h4 id="C"><a href="#C" class="headerlink" title="C"></a>C</h4><p><code>cppreference</code></p><blockquote><p><a href="http://en.cppreference.com/w/c" target="_blank" rel="external">http://en.cppreference.com/w/c-英文版</a><br><a href="http://zh.cppreference.com/w/c" target="_blank" rel="external">http://zh.cppreference.com/w/c-中文版</a></p></blockquote><h4 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h4><p><code>cppreference</code></p><blockquote><p><a href="http://en.cppreference.com/w/cpp" target="_blank" rel="external">http://en.cppreference.com/w/cpp-英文版</a><br><a href="http://zh.cppreference.com/w/cpp" target="_blank" rel="external">http://zh.cppreference.com/w/cpp-中文版</a></p></blockquote><p><code>cplusplus</code></p><blockquote><p><a href="http://www.cplusplus.com/reference/" target="_blank" rel="external">http://www.cplusplus.com/reference/</a></p></blockquote><h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><p><code>Linux Tools Quick Tutorial</code></p><blockquote><p><a href="https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html#" target="_blank" rel="external">https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html#</a></p></blockquote><p><code>Linux命令大全</code></p><blockquote><p><a href="http://man.linuxde.net/" target="_blank" rel="external">http://man.linuxde.net/</a></p></blockquote><p><code>鸟哥的Linux私房菜</code></p><blockquote><p><a href="http://linux.vbird.org/" target="_blank" rel="external">http://linux.vbird.org/</a></p></blockquote><p><code>Learn Vim Progressively</code></p><blockquote><p><a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/" target="_blank" rel="external">http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/-英文版</a><br><a href="https://coolshell.cn/articles/5426.html" target="_blank" rel="external">https://coolshell.cn/articles/5426.html-中文版</a></p></blockquote>]]></content>
     
     <summary type="html">
     
